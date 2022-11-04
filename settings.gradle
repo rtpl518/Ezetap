@@ -10,8 +10,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
     }
 }
 rootProject.name = "Ezetap"
-include ':app', ':network'
+include ':app'
+include ':network'
 project(':network').projectDir = file('../EzetapNetworkModule/network')
