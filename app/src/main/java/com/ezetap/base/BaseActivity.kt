@@ -6,6 +6,9 @@ import androidx.lifecycle.ViewModel
 import androidx.viewbinding.ViewBinding
 import com.ezetap.R
 
+/**
+* Base class to create an Activity.
+* */
 abstract class BaseActivity<VB : ViewBinding, VM : ViewModel> : AppCompatActivity() {
     private var _binding: VB? = null
     val binding

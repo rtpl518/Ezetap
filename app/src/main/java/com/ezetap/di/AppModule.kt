@@ -1,4 +1,4 @@
-package com.ezetap.hilt.di
+package com.ezetap.di
 
 import com.ezetap.data.MainRepository
 import com.ezetap.network.request.RequestManager
