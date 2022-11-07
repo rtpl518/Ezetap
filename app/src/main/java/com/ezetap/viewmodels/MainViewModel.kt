@@ -5,8 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.ezetap.base.BaseViewModel
 import com.ezetap.data.MainRepository
-import com.ezetap.network.data.CustomUIResponse
-import com.ezetap.network.data.ErrorResponse
+import com.ezetap.lib_network.data.CustomUIResponse
+import com.ezetap.lib_network.data.ErrorResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

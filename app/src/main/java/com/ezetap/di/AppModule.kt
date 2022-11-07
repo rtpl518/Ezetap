@@ -1,7 +1,7 @@
 package com.ezetap.di
 
 import com.ezetap.data.MainRepository
-import com.ezetap.network.request.RequestManager
+import com.ezetap.lib_network.request.RequestManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

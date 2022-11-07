@@ -8,19 +8,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.appcompat.widget.AppCompatEditText
-import androidx.core.content.ContextCompat
 import androidx.core.view.get
-import androidx.core.widget.TextViewCompat.setTextAppearance
 import com.bumptech.glide.Glide
 import com.ezetap.R
 import com.ezetap.databinding.ChildButtonBinding
 import com.ezetap.databinding.ChildTextInputBinding
 import com.ezetap.databinding.ChildTextViewBinding
-import com.ezetap.network.constants.UIType
-import com.ezetap.network.data.CustomViewData
+import com.ezetap.lib_network.constants.UIType
+import com.ezetap.lib_network.data.CustomViewData
 import com.ezetap.utils.dpToPx
-import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
 object ViewRenderer {

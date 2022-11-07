@@ -1,7 +1,7 @@
 package com.ezetap.data
 
 import com.ezetap.base.BaseRepository
-import com.ezetap.network.request.RequestManager
+import com.ezetap.lib_network.request.RequestManager
 import javax.inject.Inject
 
 class MainRepository @Inject constructor(private val requestManager: RequestManager) : BaseRepository() {

@@ -17,5 +17,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Ezetap"
 include ':app'
-include ':network'
-project(':network').projectDir = file('../EzetapNetworkModule/network')
+//include ':network'
+//project(':network').projectDir = file('../EzetapNetworkModule/network')
