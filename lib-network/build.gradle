@@ -46,12 +46,12 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:2.44"
 
     /// Retrofit ///
-    api "com.squareup.retrofit2:retrofit:2.9.0"
-    api "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
 
     /// OKHttp3 ///
-    api 'com.squareup.okhttp3:okhttp:5.0.0-alpha.8'
-    api 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.8'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.8'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.8'
 
     /// Glide ///
     implementation 'com.github.bumptech.glide:glide:4.14.2'
